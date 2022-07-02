@@ -4,9 +4,12 @@ public class Calculos_con_Math {
 
     public static void main(String[] args) {
 
-        double calcular = Math.round(Math.sqrt(20));
+        double base = 3;
+        double exponente = 4;
 
-        System.out.println(calcular);
+        int total = (int)Math.pow(base,exponente);
+
+        System.out.println("el resultado de "+base+ " elevado a "+ exponente+ " es "+ total);
 
     }
 }
